@@ -1,47 +1,113 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-	<meta name="description" content="Estudiante de ingenieria en sistemas con conocimientos de html, css, c++. Con experencia en desarrollo de aplicaciones y paginas web">
-	<title>Inicio | Mario Taracena</title>
-	<lang="es">
-	<link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Mario Taracena, estudiante de Ingeniería en Sistemas.">
+    <title>Inicio | Mario Taracena</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<header>
-		<nav class="menu">
-			<ul class="links">
-    			<li><a href="index.html">Inicio</a></li>
-    			<li><a href="proyectos.html">Proyectos</a></li>
-    			<li><a href="mailto:mariotaracena001@gmail.com">Contacto</a></li>
-				<li><a href="https://www.linkedin.com/in/mario-taracena-p%C3%A9rez-4a7136224/">Linkedin</a></li>
-  			</ul>
-		</nav>
-	</header>
-	<main >
+    <header>
+        <nav class="menu" aria-label="Navegación principal">
+            <ul class="links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="mailto:mariotaracena001@gmail.com">Contacto</a></li>
+                <li><a href="https://www.linkedin.com/in/mario-taracena-p%C3%A9rez-4a7136224/">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
 
-		<script>
-			console.log("Hola Mundo")
-		</script>
+    <main class="hero">
+        <section class="hero-content">
+            <div class="hero-text">
+                <p class="eyebrow">PORTAFOLIO</p>
+                <h1>Hola, soy <span>Mario Taracena</span></h1>
+                <h2>Estudiante de Ingeniería en Sistemas</h2>
+                <p class="description">
+                    Me interesa el desarrollo web, la programación y la creación de soluciones
+                    tecnológicas. En este espacio puedes conocer un poco más sobre mi trabajo
+                    y los proyectos que he realizado.
+                </p>
 
-		<section Class="section1">
-			<h1>Mario Taracena</h1>
-			<a>
-				<img src="mc.png" alt="maincra" width="200px" height="300px"/>
-				<br> imagen placeholder
-			</a>
-		</section>
-		
-		<section class="section2">
-			<p>Ingeniero en sistemas de la Universidad Mariano Galvez de guatemala, con conocimientos en desarrollo web y programación. </p>
-		</section>
-		
-	</main>
-	<footer>
-		<ul class="links_footer">
-   			<li><a href="#">facebook</a></li>
-			<li><a href="#">instagram</a></li>
-    		<li><a href="#">Contacto</a></li>
-  		</ul>
-	</footer>
+                <div class="hero-buttons">
+                    <a class="button primary-button" href="proyectos.html">Ver proyectos</a>
+                    <a class="button secondary-button" href="mailto:mariotaracena001@gmail.com">Contactarme</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-frame">
+                    <img src="mc.png" alt="Imagen de presentación (cambiar despues)">
+                </div>
+            </div>
+        </section>
+
+        <section class="intro-section">
+            <div class="section-heading">
+                <p class="eyebrow">SOBRE MÍ</p>
+                <h2>Desarrollo y aprendizaje constante</h2>
+            </div>
+            <p>
+                Soy estudiante de Ingeniería en Sistemas de la Universidad Mariano Gálvez de Guatemala,
+                con conocimientos en desarrollo web y programación. Me gusta aprender nuevas tecnologías
+                y aplicar mis conocimientos en proyectos prácticos.
+            </p>
+        </section>
+
+        <section class="projects-section">
+            <div class="section-heading centered">
+                <p class="eyebrow">MI TRABAJO</p>
+                <h1>Proyectos</h1>
+                <p>Una selección de proyectos realizados durante mi formación en Ingeniería en Sistemas.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-number">01</div>
+                    <div class="project-content">
+                        <p class="project-type">DESARROLLO DE SOFTWARE</p>
+                        <h2>Compilador</h2>
+                        <p>
+                            Compilador de un lenguaje de programación simple creado desde cero que muestra paso a paso cada proceso de una compilación
+                        </p>
+                        <div class="tags">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <a class="card-link" href="#">Ver proyecto <span aria-hidden="true">→</span></a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">02</div>
+                    <div class="project-content">
+                        <p class="project-type">DESARROLLO WEB</p>
+                        <h2>Bay Bee Store</h2>
+                        <p>
+                            Página web hecha en shopify para la gestión de un negocio de dropshipping, enfocada en organizar productos, pedidos, clientes e inventario. Promoviendo la venta en linea.
+                        </p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Liquid</span>
+                        </div>
+                    </div>
+                    <a class="card-link" href="https://storebaybee.myshopify.com/">Ver proyecto <span aria-hidden="true">→</span></a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="links_footer">
+            <li><a href="https://github.com/marioo-t">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/mario-taracena-p%C3%A9rez-4a7136224/">LinkedIn</a></li>
+            <li><a href="mailto:mariotaracena001@gmail.com">Contacto</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
