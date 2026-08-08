@@ -5,11 +5,12 @@
 }
 
 h1 {
+    /*Sí, el comics Sans lo eliminaré*/
     font-family: "Comic Sans MS", cursive;
 }
 
 header {
-    
+
     background-color: var(--secondary-color);
     
 }
